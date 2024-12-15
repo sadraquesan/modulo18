@@ -1,0 +1,59 @@
+@fontePrincipal: Roboto, sans-serif;
+@fonteDoTitulo: Lobster, cursive;
+@corDoTexto: #fff;
+@corDeFundo: #dfe6e9
+@corDoTextoDoButao: #969288;
+@corDoFundoDoButao: #b2bec3;
+
+body {
+    background-color: @corDeFundo;
+    color: @corDoTexto;
+}
+
+h1 {
+    font-family: @fonteDoTitulo;
+}
+
+main {
+    max-width: 960px;
+    width: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: @corDoTextoDoButao;
+    color: @corDoTexto;
+    font-family: @fontePrincipal;
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: @corDoTexto;
+    border-bottom: 6px solid #fff;
+}
+
+.resultado {
+    padding: 12px;
+    margin-top: 120px;
+    border-radius: 8px;
+    color: @corDoTexto;
+
+    span {
+        font-weight: bold;
+        font-size: 3em;
+    }
+}
